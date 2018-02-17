@@ -1,0 +1,9 @@
+{
+    "HOME": {
+        "dir":"ltr",
+        "float":"left",
+        "text-align":"left",
+        "TITLE": "Hello Angular with ngx-translate!",
+        "SELECT": "Change language"
+    }
+  }
