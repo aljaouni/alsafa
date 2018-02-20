@@ -13,8 +13,8 @@ body a{
 	-ms-transition:0.5s all;
 }
 h1,h2,h3,h4,h5,h6{
-	margin:0;			   
-}	
+	margin:0;
+}
 p{
 	margin:0;
 }
@@ -25,9 +25,10 @@ ul{
 /*----start-container----*/
 /*-----start-header----*/
 .bg{
-	background:url(../images/sandwich.jpg) no-repeat 0px 0px;
+	background:url(../images/13.jpg) no-repeat 0px 0px;
 	background-size:100%;
-	min-height:280px;
+	/*min-height:700px;*/
+	/*min-height:280px;*/
 }
 .logo-new{
 	width: 133px;
@@ -65,7 +66,7 @@ ul{
 	text-transform: uppercase;
 	position: relative;
 	font-weight: 300;
-	
+
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
@@ -111,8 +112,9 @@ nav a:hover{
 
 /*------ banner -----*/
 .banner{
-	padding: 2em  0;
+	padding: 7%  0;
 }
+
 .banner h1{
 	font-weight: 700;
 	font-size: 3.1em;
@@ -121,7 +123,7 @@ nav a:hover{
 	width: 50%;
 	display: inline-block;
 	line-height: 1.3em;
-	float:right; 
+	float:right;
 }
 .banner span {
 	width: 15%;
@@ -157,7 +159,7 @@ nav a:hover{
 	font-size:1.8em;
 }
 .welcome-note-right-left{
-	
+
 }
 .welcome-note-right-left h3{
 	font-size:0.9em;
@@ -254,7 +256,7 @@ nav a:hover{
 	font-weight:700;
 }
 .recent-news-right{
-	
+
 }
 .recent-news-right h3{
 	padding:0;
@@ -279,7 +281,7 @@ nav a:hover{
 	margin-bottom:1.2em;
 }
 .about-us{
-	
+
 }
 .about-us img{
 	width:100%;
@@ -296,7 +298,7 @@ nav a:hover{
 	color:#777;
 	font-size:0.875em;
 	line-height:1.7em;
-	margin:1em 0 0 0;	
+	margin:1em 0 0 0;
 }
 .about-us h2{
 	color: #2f3837;
@@ -375,7 +377,7 @@ nav a:hover{
 }
 .news-letter-grid-right input[type="text"]{
 	border:none;
-	width:90%;	
+	width:90%;
 	padding:0.6em 0.8em;
 	border:1px solid #EEE;
 	outline:none;
@@ -797,7 +799,7 @@ ul#filters {
 	}
 	div#portfoliolist {
 		padding: 40px 0px;
-}	
+}
 	.portfolio-wrapper {
 		overflow:hidden;
 		position: relative !important;
@@ -833,7 +835,7 @@ ul#filters {
 			z-index:500;
 			padding:5px 8px;
 		}
-			
+
 			.portfolio .text-category {
 				display:block;
 				font-size:9px;
@@ -956,7 +958,7 @@ color: #D13F31;
 margin-bottom:0.5em;
 padding:12px 0;
 border-bottom: 1px solid #999999;
-border-top: 1px solid #999999; 
+border-top: 1px solid #999999;
 }
 .team-grid p{
 margin:1.5em 0 2em 0;
@@ -1139,7 +1141,7 @@ border:1px solid #fda73f;
 }
 .contact-form textarea{
 	resize:none;
-	height:120px;		
+	height:120px;
 }
 .contact-form input[type="submit"]{
 	margin-top: 10px;
@@ -1343,7 +1345,7 @@ padding-left:0;
 font-size: 0.8em;
 }
 .mid-grid-left img {
-width: 51%;
+/*width: 51%;*/
 }
 .mid-grid-right h3 {
 font-size: 1.3em;
@@ -1516,11 +1518,11 @@ width: 18%;
 }
 span.menu:before {
 	content: url(../images/nav.png);
-	cursor: pointer;		
+	cursor: pointer;
 }
 .top-nav {
 	width: 80%;
-	float: right;	
+	float: right;
 }
 .top-nav  ul{
 	display:none;
@@ -1562,7 +1564,7 @@ font-size: 1.8em;
 width: 68%;
 }
 .banner {
-padding: 3em 0 0;
+padding: 7% 0;
 }
 .bg {
 min-height: 302px;
@@ -1594,7 +1596,7 @@ margin:1em 0;
 padding: 1.5em 0;
 }
 .mid-grid-left {
-width: 40%;
+/*width: 40%;*/
 float: left;
 }
 .mid-grid-left img {
@@ -1820,7 +1822,7 @@ font-size: 0.8em;
 width: 72%;
 }
 .banner {
-padding: 3.2em 0 0;
+padding: 7% 0;
 }
 .bg {
 min-height: 260px;
@@ -1994,7 +1996,7 @@ width: 77%;
 font-size: 1.1em;
 }
 .banner {
-padding: 2.2em 0 0;
+padding: 7% 0;
 }
 .banner p {
 font-size: 0.7em;
@@ -2022,7 +2024,7 @@ padding: 0.7em 1em;
 padding: 1em 0;
 }
 .mid-grid-left {
-width: 64%;
+/*width: 64%;*/
 padding: 9px;
 }
 .mid-grid-right {
@@ -2195,4 +2197,19 @@ width: 69%;
 		height: 59px;
 		margin: -15px 0 0 0;
 	}
+}
+.welcome-note h2 {
+	color: #fda73f;
+	font-weight: 300;
+	/*text-transform: uppercase;*/
+	text-align: center;
+	padding: 10px 0;
+}
+#map-layer {
+	position: relative;
+	z-index: 1000;
+	overflow: hidden;
+	display: list-item;
+	width: 100%;
+	height: 400px;
 }
